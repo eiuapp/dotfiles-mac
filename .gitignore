@@ -1,4 +1,7 @@
 
+
+.gem
+
 ## donot know what to do
 eslintrc.js
 dotfiles-private
@@ -40,6 +43,16 @@ dotfiles-private
 package-lock.json
 package.json
 
+## donot know what meaning, but need
+view/
+.netrwhist
+.ycm_extra_conf.pyc
+bundle/*
+!bundle/vundle
+
+## 	make secret data into .gitconfig.local
+/.gitconfig.local
+
 ## history files
 .bash_history
 .python_history
@@ -73,6 +86,11 @@ Spacemacs-rocks
 anaconda3/
 .DS_Store
 .ssh/
+
+## edit files 
+.DS_Store
+*/.DS_Store
+*.swp
 
 ## system dirs
 Applications/
