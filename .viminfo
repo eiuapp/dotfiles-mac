@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/github
+~MSle0~/github.com
 
 # Last Substitute Search Pattern:
 ~MSle0&tom-a
@@ -21,19 +21,31 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1542678815,,"x"
-:q!
-|2,0,1542678536,,"q!"
+|2,0,1548684811,,"x"
 :q
-|2,0,1542513777,,"q"
+|2,0,1548681995,,"q"
+:q!
+|2,0,1546686845,,"q!"
+:106
+|2,0,1545442285,,"106"
+:set nu
+|2,0,1545442282,,"set nu"
+:418
+|2,0,1543651635,,"418"
+:28
+|2,0,1543223130,,"28"
+:14
+|2,0,1543162200,,"14"
+:%s/ //g
+|2,0,1542679070,,"%s/ //g"
+:%s/??//g
+|2,0,1542679002,,"%s/??//g"
 :qa!
 |2,0,1542260232,,"qa!"
 :q@
 |2,0,1542254854,,"q@"
 :w
 |2,0,1542098507,,"w"
-:set nu
-|2,0,1541263468,,"set nu"
 :533
 |2,0,1541263416,,"533"
 :553
@@ -68,10 +80,52 @@ $
 |2,0,1528890539,,"%s/c++/c++\\/single-node/g"
 
 # Search String History (newest to oldest):
+?/github.com
+|2,1,1548681910,47,"github.com"
+?/processon
+|2,1,1545560720,47,"processon"
+?/docker
+|2,1,1544863163,47,"docker"
+? \<add\>
+|2,1,1545442417,,"\\<add\\>"
+?/local
+|2,1,1545442312,47,"local"
+? \<export\>
+|2,1,1544941545,,"\\<export\\>"
+?/collectstatic
+|2,1,1544868421,47,"collectstatic"
+?/static
+|2,1,1544868395,47,"static"
+?/app
+|2,1,1544868388,47,"app"
+?/51
+|2,1,1544695469,47,"51"
+?/51C
+|2,1,1544695467,47,"51C"
+?/algo
+|2,1,1544670065,47,"algo"
+?/live.cn
+|2,1,1543839411,47,"live.cn"
+?/teamvi
+|2,1,1543757871,47,"teamvi"
+?/tomtsang1987@gmail
+|2,1,1543719615,47,"tomtsang1987@gmail"
+?/docker.com
+|2,1,1543651643,47,"docker.com"
+?/about
+|2,1,1543643890,47,"about"
+?/post
+|2,1,1543314276,47,"post"
+?/gith
+|2,1,1542270311,47,"gith"
+?/githug
+|2,1,1542270305,47,"githug"
+?  
+|2,1,1542679070,," "
+? ??
+|2,1,1542679002,,"??"
 ?/github
 |2,1,1542097629,47,"github"
-?/githug
-|2,1,1542097625,47,"githug"
 ?/spacemacs|
 |2,1,1541263446,47,"spacemacs|"
 ?/with-eval-a
@@ -131,267 +185,808 @@ $
 
 # Registers:
 "0	LINE	0
-	cp -a ./zilongshanren-layers.el ~/.spacemacs.d/layers/zilongshanren/layers.el
-|3,0,0,1,1,0,1542263559,"cp -a ./zilongshanren-layers.el ~/.spacemacs.d/layers/zilongshanren/layers.el"
-""1	LINE	0
-	91 directories, 52 files
-|3,1,1,1,1,0,1542513626,"91 directories, 52 files"
+	## coreutil
+|3,0,0,1,1,0,1545442383,"## coreutil"
+"1	LINE	0
+	[submodule "mac/dotfiles-mac"]
+		path = mac/dotfiles-mac
+		url = git@bitbucket.org:dockeride/dotfiles-mac.git
+|3,0,1,1,3,0,1548684635,"[submodule \"mac/dotfiles-mac\"]","	path = mac/dotfiles-mac","	url = git@bitbucket.org:dockeride/dotfiles-mac.git"
 "2	LINE	0
-	│   ├── CNAME
-|3,0,2,1,1,0,1542513611,"│   ├── CNAME"
+		.bash_profile
+|3,0,2,1,1,0,1548683505,"	.bash_profile"
 "3	LINE	0
-	├── public.0
-|3,0,3,1,1,0,1542513610,"├── public.0"
+		.gitconfig
+|3,0,3,1,1,0,1548683494,"	.gitconfig"
 "4	LINE	0
-	│   └── tomt
-|3,0,4,1,1,0,1542513608,"│   └── tomt"
+		.gitconfig~
+|3,0,4,1,1,0,1548683490,"	.gitconfig~"
 "5	LINE	0
-	│   ├── test
-|3,0,5,1,1,0,1542513607,"│   ├── test"
+		.gitignore
+|3,0,5,1,1,0,1548683488,"	.gitignore"
 "6	LINE	0
-	│   ├── tags
-|3,0,6,1,1,0,1542513606,"│   ├── tags"
+		.gitconfig~
+|3,0,6,1,1,0,1548683482,"	.gitconfig~"
 "7	LINE	0
-	│   ├── sitemap.xml
-|3,0,7,1,1,0,1542513605,"│   ├── sitemap.xml"
+		.gitignore
+|3,0,7,1,1,0,1548683480,"	.gitignore"
 "8	LINE	0
-	│   ├── shop
-|3,0,8,1,1,0,1542513605,"│   ├── shop"
+	.viminfo
+|3,0,8,1,1,0,1548683471,".viminfo"
 "9	LINE	0
-	│   ├── rootsongjc-hugo.json
-|3,0,9,1,1,0,1542513605,"│   ├── rootsongjc-hugo.json"
+		.zshrc
+|3,0,9,1,1,0,1548683455,"	.zshrc"
 "q	CHAR	0
 	:q!l
 |3,0,26,0,1,0,1540914221,":q!l"
-"-	CHAR	0
-	s
-|3,0,36,0,1,0,1542263581,"s"
+""-	CHAR	0
+		
+|3,1,36,0,1,0,1548684807,"	"
 
 # File marks:
-'0  1  28  ~/README.org
-|4,48,1,28,1542678815,"~/README.org"
-'1  1  0  ~/bitbucket/dotfiles/dotfiles.txt
-|4,49,1,0,1542678536,"~/bitbucket/dotfiles/dotfiles.txt"
-'2  139  41  ~/.zshrc
-|4,50,139,41,1542642787,"~/.zshrc"
-'3  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,51,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
-'4  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,52,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
-'5  5  46  ~/.spacemacs.d/layers/zilongshanren-tomtsang/build/init.sh
-|4,53,5,46,1542263588,"~/.spacemacs.d/layers/zilongshanren-tomtsang/build/init.sh"
-'6  7  0  ~/test/testGit/t.sh
-|4,54,7,0,1542260357,"~/test/testGit/t.sh"
-'7  1  20  ~/test/testGit/.git/COMMIT_EDITMSG
-|4,55,1,20,1542260333,"~/test/testGit/.git/COMMIT_EDITMSG"
-'8  2  0  ~/test/testGit/.git/rebase-merge/git-rebase-todo
-|4,56,2,0,1542260232,"~/test/testGit/.git/rebase-merge/git-rebase-todo"
-'9  9  0  ~/.ssh/config
-|4,57,9,0,1542259174,"~/.ssh/config"
+'0  1  0  ~/.gitignore
+|4,48,1,0,1548684811,"~/.gitignore"
+'1  3  1  ~/bitbucket/dotfiles/.gitmodules
+|4,49,3,1,1548684636,"~/bitbucket/dotfiles/.gitmodules"
+'2  2  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,50,2,0,1548683509,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+'3  15  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,51,15,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+'4  2  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,52,2,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+'5  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,53,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+'6  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,54,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+'7  1  0  ~/bitbucket/account/.git/MERGE_MSG
+|4,55,1,0,1548680262,"~/bitbucket/account/.git/MERGE_MSG"
+'8  373  12  ~/bitbucket/account/account.20180808/account.md
+|4,56,373,12,1547373850,"~/bitbucket/account/account.20180808/account.md"
+'9  373  12  ~/bitbucket/account/account.20180808/account.md
+|4,57,373,12,1547373850,"~/bitbucket/account/account.20180808/account.md"
 
 # Jumplist (newest first):
--'  1  28  ~/README.org
-|4,39,1,28,1542678815,"~/README.org"
--'  1  0  ~/bitbucket/dotfiles/dotfiles.txt
-|4,39,1,0,1542678536,"~/bitbucket/dotfiles/dotfiles.txt"
--'  1  0  ~/bitbucket/dotfiles/dotfiles.txt
-|4,39,1,0,1542678536,"~/bitbucket/dotfiles/dotfiles.txt"
--'  139  41  ~/.zshrc
-|4,39,139,41,1542642787,"~/.zshrc"
--'  139  41  ~/.zshrc
-|4,39,139,41,1542642787,"~/.zshrc"
--'  139  41  ~/.zshrc
-|4,39,139,41,1542642787,"~/.zshrc"
--'  139  41  ~/.zshrc
-|4,39,139,41,1542642787,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1542641495,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1542641495,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1542641495,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1542641495,"~/.zshrc"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-|4,39,1,0,1542513777,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  50  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,50,0,1542513634,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  38  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,38,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  39  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,39,0,1542513612,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  34  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,34,0,1542513596,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  1  0  ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
-|4,39,1,0,1542513540,"~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org"
--'  5  46  ~/.spacemacs.d/layers/zilongshanren-tomtsang/build/init.sh
-|4,39,5,46,1542263588,"~/.spacemacs.d/layers/zilongshanren-tomtsang/build/init.sh"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1548684811,"~/.gitignore"
+-'  3  1  ~/bitbucket/dotfiles/.gitmodules
+|4,39,3,1,1548684636,"~/bitbucket/dotfiles/.gitmodules"
+-'  3  1  ~/bitbucket/dotfiles/.gitmodules
+|4,39,3,1,1548684636,"~/bitbucket/dotfiles/.gitmodules"
+-'  1  0  ~/bitbucket/dotfiles/.gitmodules
+|4,39,1,0,1548684632,"~/bitbucket/dotfiles/.gitmodules"
+-'  1  0  ~/bitbucket/dotfiles/.gitmodules
+|4,39,1,0,1548684632,"~/bitbucket/dotfiles/.gitmodules"
+-'  2  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,0,1548683509,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,0,1548683509,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,0,1548683509,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,0,1548683509,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  10  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,10,0,1548683483,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  10  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,10,0,1548683483,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  10  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,10,0,1548683483,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  10  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,10,0,1548683483,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683450,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683450,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683450,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683450,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  15  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,15,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  15  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,15,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  15  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,15,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  15  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,15,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  2  35  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,2,35,1548683418,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683415,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683415,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683415,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  1  0  ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+|4,39,1,0,1548683415,"~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  207  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,207,0,1548681995,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  1  0  ~/bitbucket/account/account.20180808/account.md
+|4,39,1,0,1548681910,"~/bitbucket/account/account.20180808/account.md"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  167  16  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,167,16,1548681752,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
+-'  1  0  ~/bitbucket/account/account.20161106/普通帐号密码.txt
+|4,39,1,0,1548680329,"~/bitbucket/account/account.20161106/普通帐号密码.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1548684810	0
+	"	1	0
+	^	11	0
+	.	1	0
+	+	67	6
+	+	1	1
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	1	0
+	+	52	0
+	+	1	9
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+
+> ~/bitbucket/dotfiles/.gitmodules
+	*	1548684635	0
+	"	3	1
+	.	4	0
+	+	4	0
+
+> ~/bitbucket/dotfiles/mac/dotfiles-mac/.gitignore
+	*	1548683507	0
+	"	2	0
+	^	14	1
+	.	2	0
+	+	15	35
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+
+> ~/bitbucket/account/account.20180808/account.md
+	*	1548681914	0
+	"	207	0
+	^	15	0
+	.	399	0
+	+	57	0
+	+	56	8
+	+	197	31
+	+	201	13
+	+	52	0
+	+	50	0
+	+	49	6
+	+	42	0
+	+	41	26
+	+	37	0
+	+	36	51
+	+	35	6
+	+	34	6
+	+	32	18
+	+	25	25
+	+	30	12
+	+	25	6
+	+	195	107
+	+	211	12
+	+	203	55
+	+	208	70
+	+	195	85
+	+	220	91
+	+	23	0
+	+	22	12
+	+	16	0
+	+	14	7
+	+	12	0
+	+	397	0
+	+	398	0
+	+	399	0
+
+> ~/bitbucket/account/account.20161106/普通帐号密码.txt
+	*	1548681750	0
+	"	167	16
+
+> ~/bitbucket/account/.git/MERGE_MSG
+	*	1548680259	0
+	"	1	0
+
+> ~/bitbucket/docker-ide-ud/.gitmodules
+	*	1547341506	0
+	"	6	60
+	^	6	61
+	.	6	60
+	+	9	59
+	+	6	60
+
+> ~/.spacemacs.d/layers/tom/packages.el
+	*	1547214154	0
+	"	62	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
+	*	1546686841	0
+	"	14	0
+	^	5	2
+	.	14	0
+	+	9	3
+	+	5	10
+	+	1	4
+	+	5	9
+	+	1	0
+	+	5	5
+	+	9	0
+	+	3	5
+	+	6	45
+	+	7	31
+	+	5	0
+	+	14	0
+
+> ~/django/djangoproject.com/django-polls/README.rst
+	*	1546329539	0
+	"	29	64
+	^	29	65
+	.	29	64
+	+	29	64
+
+> ~/django/djangoproject.com/mysite/mysite/settings.py
+	*	1546243707	0
+	"	34	28
+	^	34	29
+	.	34	28
+	+	34	28
+
+> ~/github/python/learn-python3/samples/multitask/task_master.py
+	*	1545559819	0
+	"	1	0
+
+> ~/.zshrc
+	*	1545479199	0
+	"	121	54
+	^	121	55
+	.	121	54
+	+	124	35
+	+	125	65
+	+	129	34
+	+	129	28
+	+	129	51
+	+	129	0
+	+	144	0
+	+	146	15
+	+	147	68
+	+	147	35
+	+	147	76
+	+	147	0
+	+	147	41
+	+	147	20
+	+	147	6
+	+	147	0
+	+	146	0
+	+	147	0
+	+	102	0
+	+	97	19
+	+	123	8
+	+	128	2
+	+	126	0
+	+	119	0
+	+	109	0
+	+	108	12
+	+	108	0
+	+	99	0
+	+	97	37
+	+	121	54
+
+> ~/.spacemacs.d/.gitignore
+	*	1545443856	0
+	"	1	0
+	^	6	14
+	.	6	13
+	+	7	8
+	+	1	0
+	+	7	29
+	+	4	9
+	+	5	0
+	+	6	13
+
+> ~/.zshenv
+	*	1545441018	0
+	"	10	0
+
+> ~/.profile
+	*	1545440998	0
+	"	15	0
+
+> ~/tmp/pyenv.sh
+	*	1544932265	0
+	"	6	0
+	.	7	0
+	+	7	99
+	+	7	0
+
+> ~/github/erp/saleor/docker-compose.yml
+	*	1544868422	0
+	"	1	0
+
+> ~/github/blogs/woaielf/woaielf.github.io/_posts/2016-09-11-data-science.md
+	*	1544697115	0
+	"	86	0
+
+> ~/github/blogs/woaielf/woaielf.github.io/_posts/2017-10-29-nat123.md
+	*	1544697094	0
+	"	123	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/config.yaml
+	*	1544670691	0
+	"	7	44
+	^	7	45
+	.	7	44
+	+	7	44
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/config.toml
+	*	1544670676	0
+	"	8	0
+	^	8	46
+	.	8	45
+	+	43	14
+	+	8	45
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/themes/diff-yangchuansheng.md
+	*	1544614160	0
+	"	33	0
+	.	34	0
+	+	34	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/themes/beautifulhugo-tom-base-yangchuansheng/layouts/index.html
+	*	1544613307	0
+	"	1	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitmodules
+	*	1544612928	0
+	"	13	12
+	^	13	13
+	.	13	12
+	+	9	0
+	+	11	51
+	+	9	0
+	+	12	70
+	+	10	32
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	12	108
+	+	12	7
+	+	13	12
+
+> ~/github/blogs/yangchuansheng/hugo/config.toml
+	*	1544606575	0
+	"	186	0
+
+> ~/github/golang-learning/Learning-Go-zh-cn/Makefile
+	*	1543907748	0
+	"	1	0
+
+> ~/tmp/bb.go
+	*	1543770604	0
+	"	28	0
+	^	28	1
+	.	28	0
+	+	28	0
+
+> ~/tmp/aa.go
+	*	1543768412	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/golang/qor/src/github.com/qor-cms-demos/demo02-admin-auth/main.go
+	*	1543725295	0
+	"	51	0
+
+> ~/golang/qor/src/github.com/qor-cms-demos/demo01-simple-admin/main.go
+	*	1543715550	0
+	"	44	26
+	^	44	27
+	.	44	26
+	+	44	26
+
+> ~/gitee/wenqiang/tests/main.go
+	*	1543681153	0
+	"	1	0
+
+> ~/.spacemacs.d/layers/zilongshanren-tomtsang/README.md
+	*	1543677409	0
+	"	12	33
+	^	12	36
+	.	12	33
+	+	17	0
+	+	15	11
+	+	12	33
+
+> ~/.spacemacs.d/layers/zilongshanren-tomtsang/build/spacemacs.d-init.el
+	*	1543676887	0
+	"	95	5
+	^	95	0
+	.	95	0
+	+	95	0
+
+> ~/tmp/test/spacemacs.d-init-hard-link.el
+	*	1543676557	0
+	"	4	0
+
+> ~/tmp/spacemacs.d-init-hard-link.el
+	*	1543676391	0
+	"	1	0
+
+> ~/github/README.md
+	*	1543672271	0
+	"	1	38
+	^	1	41
+	.	1	0
+	+	1	0
+
+> ~/gitee/wenqiang/tests/dummy/models.go
+	*	1543656299	0
+	"	1	0
+
+> ~/gitee/wenqiang/tests/dummy/admin.go
+	*	1543656232	0
+	"	54	0
+
+> /private/etc/hosts
+	*	1543655271	0
+	"	11	1
+	^	11	2
+	.	11	1
+	+	11	42
+	+	10	1
+	+	11	1
+
+> ~/.gitconfig
+	*	1543654831	0
+	"	37	0
+	^	19	99
+	.	19	98
+	+	9	18
+	+	19	5
+	+	20	5
+	+	19	98
+
+> ~/golang/qor/README.md
+	*	1543650997	0
+	"	5	0
+	^	5	0
+	.	4	39
+	+	4	39
+
+> ~/golang/qor/src/.gitignore
+	*	1543650919	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	2	5
+	+	1	3
+
+> ~/golang/qor/src/tom/admin/main.go
+	*	1543650474	0
+	"	1	0
+	^	10	8
+	.	10	7
+	+	45	0
+	+	8	1
+	+	9	1
+	+	10	7
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/content/about.md
+	*	1543645444	0
+	"	1	0
+	.	171	0
+	+	169	0
+	+	170	0
+	+	171	0
+
+> ~/github/blogs/yangwenmai/maiyang.me/config.toml
+	*	1543643890	0
+	"	58	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/org/framework-benchmarks/web-framework-benchmarks.org
+	*	1543507849	0
+	"	1	18
+	.	1	18
+	+	1	18
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/org/ubuntu/transform_rst_to_org.sh
+	*	1543460604	0
+	"	8	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/public/.gitignore
+	*	1543333428	0
+	"	5	0
+	.	6	0
+	+	2	0
+	+	6	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/README.org
+	*	1543315770	0
+	"	56	52
+	^	56	55
+	.	56	52
+	+	56	52
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/draft/t.sh
+	*	1543315580	0
+	"	9	119
+	^	9	120
+	.	9	120
+	+	8	120
+	+	9	120
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/draft/categories.txt
+	*	1543313931	0
+	"	4	0
+	.	5	0
+	+	5	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/content/post/test.md
+	*	1543297997	0
+	"	7	27
+	^	7	28
+	.	7	27
+	+	7	27
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/themes/jane/layouts/partials/head.html
+	*	1543223293	0
+	"	28	57
+
+> ~/bitbucket/qqbb/hugo-jane-test/myBlog/content/post/test.md
+	*	1543165539	0
+	"	20	0
+	^	7	28
+	.	9	0
+	+	2	37
+	+	2	16
+	+	2	0
+	+	2	85
+	+	9	153
+	+	9	1
+	+	4	1
+	+	5	1
+	+	10	27
+	+	10	120
+	+	13	37
+	+	29	16
+	+	10	0
+	+	7	27
+	+	4	0
+	+	5	0
+	+	10	0
+	+	9	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/themes/jane/layouts/post/summary.html
+	*	1543164020	0
+	"	1	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/package.json
+	*	1543163794	0
+	"	1	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/themes/jane/layouts/post/single.html
+	*	1543162204	0
+	"	18	21
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/org/k8s/index.rst
+	*	1543125817	0
+	"	1	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/org/k8s/install/index.rst
+	*	1543125802	0
+	"	1	0
+
+> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/org/k8s/install/kubeadm-install-FAQ/index.rst
+	*	1543125790	0
+	"	1	0
+
+> ~/github/blogs/blog/source/index.rst
+	*	1542957445	0
+	"	21	8
+	^	21	9
+	.	21	8
+	+	22	0
+	+	21	8
+
+> ~/github/blogs/blog/source/docker/index.rst
+	*	1542957383	0
+	"	1	0
+
+> ~/github/blogs/blog/source/python/index.rst
+	*	1542957378	0
+	"	7	5
+	^	7	6
+	.	7	5
+	+	7	5
+
+> ~/github/blogs/blog/source/Harbor/index.rst
+	*	1542947155	0
+	"	1	0
+
+> ~/github/blogs/blog/source/t.sh
+	*	1542946934	0
+	"	1	0
+
+> ~/.ssh/config
+	*	1542874210	0
+	"	1	1
+	^	19	74
+	.	19	74
+	+	4	0
+	+	19	74
 
 > ~/README.org
 	*	1542678812	0
@@ -403,35 +998,6 @@ $
 > ~/bitbucket/dotfiles/dotfiles.txt
 	*	1542678534	0
 	"	1	0
-
-> ~/.zshrc
-	*	1542641518	0
-	"	139	41
-	^	136	7
-	.	136	6
-	+	99	35
-	+	100	65
-	+	106	34
-	+	106	28
-	+	106	51
-	+	106	0
-	+	121	0
-	+	123	15
-	+	126	68
-	+	129	35
-	+	132	76
-	+	134	0
-	+	133	41
-	+	140	41
-	+	135	20
-	+	136	6
-
-> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/.gitignore
-	*	1542513775	0
-	"	1	0
-	^	2	4
-	.	2	3
-	+	2	3
 
 > ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/a.org
 	*	1542513631	0
@@ -471,24 +1037,6 @@ $
 > ~/test/testGit/.git/rebase-merge/git-rebase-todo
 	*	1542260227	0
 	"	2	0
-
-> ~/.ssh/config
-	*	1542259172	0
-	"	9	0
-	^	19	74
-	.	19	74
-	+	4	0
-	+	19	74
-
-> ~/.gitconfig
-	*	1542259150	0
-	"	14	0
-	^	19	99
-	.	19	98
-	+	9	18
-	+	19	5
-	+	20	5
-	+	19	98
 
 > ~/github/zilongshanren/zilongshanren.com/source/about/index.markdown
 	*	1542254890	0
@@ -544,34 +1092,6 @@ $
 	.	1	8
 	+	1	8
 
-> ~/bitbucket/account/account.20180808/account.md
-	*	1542123880	0
-	"	191	76
-	^	183	88
-	.	183	85
-	+	45	0
-	+	44	8
-	+	185	31
-	+	189	13
-	+	40	0
-	+	38	0
-	+	37	6
-	+	30	0
-	+	29	26
-	+	25	0
-	+	24	51
-	+	23	6
-	+	22	6
-	+	20	18
-	+	13	25
-	+	18	12
-	+	13	6
-	+	183	107
-	+	199	12
-	+	191	55
-	+	196	70
-	+	183	85
-
 > ~/github/finsoftinfo/finsoftinfo.github.io/index.html
 	*	1542123166	0
 	"	1	69
@@ -585,14 +1105,6 @@ $
 	^	1	3
 	.	1	2
 	+	1	2
-
-> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/content/about.md
-	*	1541963017	0
-	"	170	0
-	.	171	0
-	+	169	0
-	+	170	0
-	+	171	0
 
 > ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/public/t.sh
 	*	1541960962	0
@@ -711,536 +1223,3 @@ $
 	^	3	28
 	.	3	27
 	+	3	27
-
-> ~/.spacemacs.d/.spacemacs.env
-	*	1541126261	0
-	"	1	0
-
-> ~/.spacemacs.d/custom.el
-	*	1541126242	0
-	"	2	0
-
-> ~/.spacemacs.d/layers/zilongshanren/layers.el
-	*	1541125964	0
-	"	1	0
-	.	17	0
-	+	17	0
-
-> ~/.spacemacs.d/.gitignore
-	*	1541125748	0
-	"	6	13
-	^	6	14
-	.	6	13
-	+	7	8
-	+	1	0
-	+	7	29
-	+	4	9
-	+	5	0
-	+	6	13
-
-> ~/.spacemacs.d/layers/zilongshanren/config.el
-	*	1541059986	0
-	"	1	0
-
-> ~/.spacemacs.d/init.el
-	*	1541042725	0
-	"	1	0
-
-> ~/.spacemacs
-	*	1540915030	0
-	"	446	58
-	^	446	59
-	.	446	58
-	+	303	40
-	+	306	58
-	+	308	3
-	+	1	0
-	+	446	58
-
-> ~/.spacemacs.env
-	*	1540914672	0
-	"	1	0
-
-> ~/bitbucket/qqbb/tomtsang-rootsongjc-hugo/content/posts/emacs-melt-no-use.md
-	*	1540618381	0
-	"	24	25
-	^	24	26
-	.	24	25
-	+	23	41
-	+	24	25
-
-> ~/test/taoguba/t.sh
-	*	1539683425	0
-	"	2	0
-	^	4	0
-	.	2	0
-	+	2	0
-	+	3	49
-	+	2	0
-
-> ~/.bash_profile
-	*	1539659647	0
-	"	1	0
-
-> /usr/local/bin/virtualenvwrapper.sh
-	*	1539574637	0
-	"	48	8
-	.	810	7
-	+	810	7
-
-> ~/golang/qor/src/tom/admin/main.go
-	*	1539063535	0
-	"	1	0
-	^	10	8
-	.	10	7
-	+	45	0
-	+	8	1
-	+	9	1
-	+	10	7
-
-> ~/bitbucket/qqbb/home/public/.git/MERGE_MSG
-	*	1538980935	0
-	"	1	0
-
-> ~/bitbucket/tomtsang-rootsongjc-hugo/public/.git/MERGE_MSG
-	*	1538911076	0
-	"	1	0
-
-> ~/.ssh/known_hosts
-	*	1538787792	0
-	"	121	0
-	.	121	0
-	+	118	0
-	+	115	0
-	+	37	0
-	+	119	0
-	+	112	0
-	+	121	0
-
-> ~/.zsh_history
-	*	1538647412	0
-	"	27	0
-
-> ~/bitbucket/account/account.20180808/account-coin.md
-	*	1537456648	0
-	"	83	0
-	.	83	0
-	+	65	93
-	+	70	23
-	+	83	0
-
-> ~/bitbucket/account/README.md
-	*	1536894217	0
-	"	23	1
-	^	23	2
-	.	23	1
-	+	14	23
-	+	10	0
-	+	9	1
-	+	1	60
-	+	6	12
-	+	9	0
-	+	10	9
-	+	13	1
-	+	14	1
-	+	10	0
-	+	12	11
-	+	13	0
-	+	14	29
-	+	23	1
-
-> ~/bitbucket/account/account.20180808/README.md
-	*	1536197233	0
-	"	4	39
-	^	4	42
-	.	4	42
-	+	4	59
-	+	2	41
-	+	3	22
-	+	4	42
-
-> ~/bitbucket/account/README.tom.md
-	*	1536197124	0
-	"	5	52
-	^	5	55
-	.	5	52
-	+	5	52
-
-> ~/golang/goc2p/.gitignore
-	*	1535685833	0
-	"	6	0
-	^	6	0
-	.	5	0
-	+	2	4
-	+	3	9
-	+	5	0
-
-> ~/golang/goc2p/envGOPATH.sh
-	*	1535680765	0
-	"	3	48
-	^	3	49
-	.	3	48
-	+	3	48
-
-> ~/tom/projects/bitbucket/account/account.20180808/account.md
-	*	1535459590	0
-	"	18	23
-	^	18	24
-	.	18	23
-	+	1	0
-	+	680	11
-	+	18	0
-	+	22	12
-	+	18	23
-
-> ~/spacemacs/use.zilongshanren.sh
-	*	1535457050	0
-	"	4	0
-	.	5	0
-	+	3	50
-	+	4	37
-	+	5	0
-
-> ~/spacemacs/back.zilongshanren.sh
-	*	1535456966	0
-	"	6	0
-	.	3	0
-	+	3	0
-
-> ~/spacemacs/back.tom.a.sh
-	*	1535456929	0
-	"	4	18
-	^	4	19
-	.	4	18
-	+	5	0
-	+	3	25
-	+	4	18
-
-> ~/spacemacs/tom.a.sh
-	*	1535456673	0
-	"	4	0
-	^	4	0
-	.	4	0
-	+	4	0
-
-> ~/.spacemacs.d/layers/.gitignore
-	*	1535454815	0
-	"	4	0
-	^	4	1
-	.	4	0
-	+	4	0
-
-> ~/.emacs.d.bak/lisp/init-packages.el
-	*	1535175461	0
-	"	299	1
-
-> ~/.emacs.d/lisp/init-packages.el
-	*	1535090116	0
-	"	41	7
-	^	39	23
-	.	41	0
-	+	24	15
-	+	25	18
-	+	3	76
-	+	48	0
-	+	39	22
-	+	41	0
-
-> ~/tom/projects/bitbucket/account/account.20180808/account-lottery.md
-	*	1535081480	0
-	"	25	55
-	^	25	56
-	.	25	55
-	+	25	55
-
-> ~/tom/projects/bitbucket/account/account.20180808/account-coin.md
-	*	1535081411	0
-	"	1	0
-	^	107	0
-	.	106	51
-	+	106	51
-
-> ~/.emacs.d/.gitignore
-	*	1535029440	0
-	"	2	2
-	^	2	3
-	.	2	2
-	+	11	8
-	+	11	4
-	+	11	0
-	+	10	7
-	+	1	0
-	+	8	7
-	+	7	15
-	+	6	0
-	+	7	0
-	+	6	0
-	+	11	0
-	+	7	0
-	+	5	8
-	+	4	0
-	+	3	4
-	+	2	2
-
-> ~/.eslintrc.js
-	*	1535008748	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	1	200
-	+	1	1
-	+	10	1
-	+	2	8
-
-> ~/eslintrc.js
-	*	1535006971	0
-	"	7	0
-	.	7	0
-	+	2	0
-	+	7	0
-
-> ~/.eslintrc
-	*	1535004168	0
-	"	35	0
-	^	35	1
-	.	35	0
-	+	35	0
-
-> ~/.emacs.d/test/package.json
-	*	1535003041	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
-
-> ~/.emacs.d/init.el
-	*	1534902800	0
-	"	1	0
-	^	8	18
-	.	8	17
-	+	29	24
-	+	8	17
-
-> ~/tom/projects/bitspace/exmail/README.md
-	*	1534599660	0
-	"	89	0
-	^	89	0
-	.	88	0
-	+	11	82
-	+	12	27
-	+	13	108
-	+	13	246
-	+	15	54
-	+	17	61
-	+	87	123
-	+	11	70
-	+	88	0
-
-> ~/tom/projects/bitspace/about-bs-cai/README.md
-	*	1534597239	0
-	"	84	0
-	^	84	0
-	.	83	0
-	+	9	111
-	+	13	42
-	+	8	117
-	+	9	129
-	+	6	168
-	+	9	270
-	+	9	171
-	+	11	0
-	+	11	183
-	+	20	24
-	+	12	39
-	+	13	45
-	+	15	89
-	+	21	0
-	+	17	207
-	+	26	3
-	+	25	53
-	+	39	4
-	+	38	8
-	+	39	4
-	+	38	10
-	+	42	0
-	+	18	10
-	+	47	13
-	+	47	231
-	+	49	85
-	+	49	0
-	+	50	98
-	+	57	4
-	+	56	3
-	+	59	4
-	+	58	127
-	+	60	126
-	+	60	106
-	+	61	0
-	+	70	0
-	+	65	117
-	+	71	0
-	+	9	3
-	+	11	120
-	+	12	48
-	+	13	45
-	+	15	43
-	+	73	0
-	+	70	195
-	+	74	12
-	+	23	106
-	+	23	4
-	+	53	324
-	+	49	85
-	+	51	253
-	+	53	384
-	+	54	117
-	+	66	60
-	+	83	0
-
-> ~/tmp/git-config/gitconfig
-	*	1534045240	0
-	"	14	18
-	^	14	19
-	.	14	18
-	+	14	18
-
-> ~/tmp/git-config/README.md
-	*	1534044918	0
-	"	32	0
-	.	33	0
-	+	1	74
-	+	1	0
-	+	6	0
-	+	33	1
-	+	30	8
-	+	32	75
-	+	33	0
-
-> ~/tmp/gitconfig
-	*	1534044819	0
-	"	1	0
-
-> ~/tom/projects/github/emacs/Spacemacs-rocks/Season2/day02/init.el
-	*	1533834156	0
-	"	56	0
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-ops/bitspace-team-ops-tom/exchange.chain.california.sh
-	*	1533742981	0
-	"	3	9
-	^	3	10
-	.	3	9
-	+	3	9
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-ops/bitspace-team-ops-tom/exchange.java.mysql.temp.test.sh
-	*	1533742968	0
-	"	1	0
-	^	3	24
-	.	3	24
-	+	3	24
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-ops/bitspace-team-ops-tom/wallet-chain.sh
-	*	1533741968	0
-	"	3	37
-	^	3	38
-	.	3	37
-	+	3	37
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-test/bitspace-team-test-team/exchange.java.mysql.temp.test.sh
-	*	1533735606	0
-	"	3	20
-	^	3	21
-	.	3	20
-	+	3	20
-
-> ~/.emacs
-	*	1533733894	0
-	"	33	22
-	^	36	25
-	.	33	22
-	+	36	24
-	+	33	22
-
-> ~/test/t.sh
-	*	1533465909	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	3	175
-	+	3	119
-	+	1	10
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-ops/bitspace-team-ops-ubuntu/wallet-java-mysql.sh
-	*	1533066130	0
-	"	3	38
-	^	3	39
-	.	3	38
-	+	3	38
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/bitspace-team/bitspace-team-ops/bitspace-team-ops-ubuntu/env-test.sh
-	*	1533049330	0
-	"	3	36
-	^	3	37
-	.	3	36
-	+	3	36
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/.gitignore
-	*	1532971577	0
-	"	2	0
-	.	2	0
-	+	4	41
-	+	3	0
-	+	4	0
-	+	2	0
-
-> ~/tom/projects/github/trade/api-example/README.md
-	*	1532620996	0
-	"	24	0
-	^	24	0
-	.	23	0
-	+	22	0
-	+	23	0
-
-> ~/tom/projects/github/trade/GoEx/.git/MERGE_MSG
-	*	1532612257	0
-	"	1	0
-
-> ~/tom/projects/github/trade/api-example/main.go
-	*	1532445341	0
-	"	36	0
-	^	36	0
-	.	35	1
-	+	35	1
-
-> ~/tom/projects/bitspace/bitspace-tom-pem/aws/aws-account-b/ssh.md
-	*	1532056598	0
-	"	1	0
-
-> ~/test/deploy.sh
-	*	1531811931	0
-	"	2	0
-	^	2	0
-	.	1	11
-	+	1	8
-	+	14	0
-	+	1	0
-	+	4	0
-	+	3	11
-	+	5	66
-	+	4	8
-	+	7	16
-	+	13	0
-	+	1	11
-
-> ~/test/ripple/package.json
-	*	1531811168	0
-	"	20	0
-	^	20	0
-	.	20	0
-	+	20	0
-
-> ~/test/ripple/get.js
-	*	1531811144	0
-	"	23	23
-	^	23	24
-	.	23	23
-	+	23	23

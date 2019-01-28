@@ -94,15 +94,38 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-## add by tom
+########## -- add by tom -- ##########
 
+## /usr/local/bin
+export PATH="/usr/local/bin:$PATH"
+
+## vs code
+alias code='~/soft/Visual\ Studio\ Code.app/Contents/MacOS/Electron'
+
+## cask
+export PATH="$HOME/.cask/bin:$PATH"
+
+## coreutil
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
+
+## python virtualenvs
+export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+source /usr/local/bin/virtualenvwrapper.sh
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PATH="$PATH:/Users/tomtsang/Downloads/.ana/bin/"
+
+## golang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/golang/lib:$HOME/golang/goc2p:$HOME/golang/qor
-
-
 [[ -s "/Users/tomtsang/.gvm/scripts/gvm" ]] && source "/Users/tomtsang/.gvm/scripts/gvm"
 
-### proxy
+## proxy
 function proxy_off(){
     unset HTTP_PROXY 
     unset HTTPS_PROXY 
@@ -120,20 +143,4 @@ function proxy_on() {
     echo -e "已开启代理"
 }
 
-# alias g='git'
 
-## vs code
-alias code='~/soft/Visual\ Studio\ Code.app/Contents/MacOS/Electron'
-
-## cask
-export PATH="$HOME/.cask/bin:$PATH"
-
-## coreutil
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
-export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
-
-## python virtualenvs
-export VIRTUALENVWRAPPER_PYTHON="$(command \which python3)"
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/workspace
-source /usr/local/bin/virtualenvwrapper.sh
