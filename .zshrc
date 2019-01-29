@@ -143,4 +143,9 @@ function proxy_on() {
     echo -e "已开启代理"
 }
 
-
+## zshrc.local
+if [ -f ".zshrc.local" ]; then 
+    source .zshrc.local
+else
+    echo "no .zshrc.local"
+fi 

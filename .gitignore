@@ -80,6 +80,10 @@ org
 Spacemacs-rocks
 
 ## must ignore and know what it is
+.tmuxinator
+.zshrc.local
+
+## must ignore and know what it is
 .emacs.d/
 .spacemacs.d/
 .viminfo
