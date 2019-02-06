@@ -1,4 +1,9 @@
-
+.android/
+.expo/
+WeChatProjects/
+ngrok
+saleor.txt
+transifex-api-token.txt
 
 .gem
 
