@@ -144,8 +144,8 @@ function proxy_on() {
 }
 
 ## zshrc.local
-if [ -f ".zshrc.local" ]; then 
-    source .zshrc.local
+if [ -f "$HOME/.zshrc.local" ]; then 
+    source $HOME/.zshrc.local
 else
-    echo "no .zshrc.local"
+    echo "no $HOME/.zshrc.local"
 fi 
