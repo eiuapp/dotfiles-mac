@@ -1,7 +1,8 @@
 .android/
+.node-gyp/
+.rncache/
+.yarnrc
 .expo/
-WeChatProjects/
-ngrok
 saleor.txt
 transifex-api-token.txt
 
@@ -14,7 +15,7 @@ dotfiles-private
 .oh-my-zsh/
 .CFUserTextEncoding
 .condarc
-.eslintrc
+.eslintrc.20190202
 .eslintrc.js.2
 .eslintrc.ok.1
 .eslintrc.org
@@ -65,6 +66,10 @@ bundle/*
 .zsh_history
 
 ## private files
+taro
+WeChatProjects/
+react
+ngrok
 blog
 gitee/
 github/
