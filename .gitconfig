@@ -1,6 +1,6 @@
 [user]
-	email = tomtsang@mac.pro
-	name = tomtsang
+	email = eiuapp@mac.pro
+	name = eiuapp
 [core]  
     editor = vi 
 [alias]
@@ -37,3 +37,8 @@
     autosetuprebase = always
 [http]
 [https]
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
