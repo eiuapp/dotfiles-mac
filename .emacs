@@ -1,0 +1,1 @@
+/Users/tomtsang/github/emacs/chemacs/.emacs
